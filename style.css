@@ -44,13 +44,13 @@
 
 .first
 {
-    width: 30%;
+    width: 40%;
     display: inline-block;
 }
 
 .second
 {
-    width: 70%;
+    width: 60%;
     display: inline-block;
 }
 
@@ -64,10 +64,19 @@
     font-family: "Tektur", sans-serif;
     font-size: 50px;
     background-color: aqua;
-    max-width: 25%;
-    text-align: center;
+    width: 50%;
+    margin-left: 20px;
 }
 
+.title
+{
+    font-size: 40px;
+    font-family: myfont;
+    color: #f5e7e7fb;
+    background-color: black;
+    margin-left: 20px;
+    width: 40%;
+}
 .icons
 {
     margin-left: 30px;
@@ -93,14 +102,7 @@ ol li
     width: 40%;
     height: 300px;
 }
-.title
-{
-    font-size: 40px;
-    font-family: myfont;
-    color: #f5e7e7fb;
-    background-color: black;
-    max-width: 20%;
-}
+
 
 #skills
 {
@@ -124,9 +126,16 @@ ol li
 {
     background-color: coral;
     width: 40%;
-    height: 25%;
+    height: 40%;
 }
 
 a{
     color: #000;
+}
+
+.name_title
+{
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block;
 }
