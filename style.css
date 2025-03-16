@@ -1,0 +1,132 @@
+*
+{
+    padding: 0;
+}
+
+@font-face
+{
+    font-family: myfont;
+    src: url('./Metadannye-Export.ttf');
+}
+
+@font-face
+{
+    font-family: skills;
+    src: url('./Martius-Regular.ttf')
+
+}
+
+@font-face
+{
+    font-family: skills_list;
+    src: url('./Meta\ Courage\ TTF.ttf')
+
+}
+
+@font-face
+{
+    font-family: working_exp;
+    src: url('./Nextir\ Brush.otf')
+
+}
+
+@font-face
+{
+    font-family: working_exp_list;
+    src: url('./Fresh\ Season.otf')
+}
+.container
+{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.first
+{
+    width: 30%;
+    display: inline-block;
+}
+
+.second
+{
+    width: 70%;
+    display: inline-block;
+}
+
+.person
+{
+    margin-left: 20px;
+}
+
+.name
+{
+    font-family: "Tektur", sans-serif;
+    font-size: 50px;
+    background-color: aqua;
+    max-width: 25%;
+    text-align: center;
+}
+
+.icons
+{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+ul li, ol li
+{
+    margin-left: 40px;
+    font-family: skills_list;
+    font-size: 20px;
+}
+
+ol li
+{
+    margin-left: 40px;
+    font-family: working_exp_list;
+    font-size: 25px;
+    
+}
+.skills_section
+{
+    background-color: antiquewhite;
+    width: 40%;
+    height: 300px;
+}
+.title
+{
+    font-size: 40px;
+    font-family: myfont;
+    color: #f5e7e7fb;
+    background-color: black;
+    max-width: 20%;
+}
+
+#skills
+{
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-family: skills;
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+.WE
+{
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-family: working_exp;
+    font-size: 35px;
+    
+}
+
+.working_exp_section
+{
+    background-color: coral;
+    width: 40%;
+    height: 25%;
+}
+
+a{
+    color: #000;
+}
