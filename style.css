@@ -144,8 +144,16 @@ ol li
 
 a{
     color: #000;
+    cursor: progress;
+    transition: color 1s;
+    
 }
 
+a:hover
+{
+    color: brown;
+
+}
 .name_title
 {
     margin-top: 10px;
