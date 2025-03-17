@@ -1,7 +1,4 @@
-*
-{
-    padding: 0;
-}
+
 
 @font-face
 {
@@ -57,6 +54,8 @@
 .person
 {
     margin-left: 20px;
+    display: block;
+    margin-right: 20px;
 }
 
 .name
@@ -64,8 +63,10 @@
     font-family: "Tektur", sans-serif;
     font-size: 50px;
     background-color: aqua;
-    width: 50%;
+    min-width: 58%;
+    max-width: 70%;
     margin-left: 20px;
+    display: flex;
 }
 
 .title
@@ -75,7 +76,8 @@
     color: #f5e7e7fb;
     background-color: black;
     margin-left: 20px;
-    width: 40%;
+    min-width: 58%;
+    max-width: 70%;
 }
 .icons
 {
@@ -99,10 +101,26 @@ ol li
 .skills_section
 {
     background-color: antiquewhite;
-    width: 40%;
+    min-width: 45%;
     height: 300px;
+    display: block;
+    margin-left: 90px;
 }
 
+.person, .skills_section
+{
+    display: inline-block;
+}
+
+.working_exp_section
+{
+    background-color: coral;
+    width: 85%;
+    
+    height: 50%;
+    display: block;
+    margin-left: 90px;
+}
 
 #skills
 {
@@ -119,15 +137,10 @@ ol li
     text-decoration: underline;
     font-family: working_exp;
     font-size: 35px;
-    
+    margin-left: 15px;
 }
 
-.working_exp_section
-{
-    background-color: coral;
-    width: 40%;
-    height: 40%;
-}
+
 
 a{
     color: #000;
@@ -137,5 +150,5 @@ a{
 {
     margin-top: 10px;
     width: 100%;
-    display: inline-block;
+    display: block;
 }
